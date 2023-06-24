@@ -2,6 +2,14 @@
 session_start();
 const USER="admin@admin.com";
 const PASS="123456";
+list = [
+['user'=>"admin@admin.com",'pass'=>"123456","role"=>'Admin'],
+['user'=>"user@user.com",'pass'=>"123456","role"=>'User'],
+['user'=>"super@super.com",'pass'=>"123456","role"=>'Super Admin'],
+];
+
+
+//$role = ['User','Admin','SuperAdmin']
 
 $u = (isset($_POST['email']))?$_POST['email']:NULL;
 $p = (isset($_POST['password']))?$_POST['password']:NULL;
