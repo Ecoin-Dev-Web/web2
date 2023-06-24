@@ -1,8 +1,6 @@
 <?php 
 $bg = (isset($_POST['bg']))?$_POST['bg']:"red" ;
 $mybg = (isset($_COOKIE['color']))?$_COOKIE['color']:$bg;
-
-
 setcookie('color',$bg,time()+60);
  ?>
 
