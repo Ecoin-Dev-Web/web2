@@ -18,7 +18,23 @@ if (!isset($_SESSION['login'])) {
 
 </head>
 <body>
-<?php include 'inc/nav.php'; ?>
+<?php 
+
+include 'inc/nav.php'; 
+/*echo '<hr>';
+//echo crypt("123456","TO");
+
+$s = serialize("Ecoin");
+
+$us = unserialize($s);*/
+
+
+/*
+echo $s;
+echo '<hr>';
+echo $us;*/
+
+?>
 
 
 	<h1>Page Manager</h1>
