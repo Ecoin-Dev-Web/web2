@@ -20,6 +20,7 @@ if (!isset($_SESSION['login'])) {
 <body>
 <?php include 'inc/nav.php'; ?>
 
-	<h1>Welcom to Admin</h1>
+
+	<h1>Page Manager</h1>
 </body>
 </html>
